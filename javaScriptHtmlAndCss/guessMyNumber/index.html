@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guess My Number</h1>
+        <p class="subtitle">Guess a random number</p>
+
+        <div class="top-bar">
+            <div class="range">
+                <span id="min">1</span>
+                <span id="max">10</span>
+            </div>
+            <button id="newGame">New Target</button>
+        </div>
+
+        <p id="message">Start guessing...</p>
+
+        <div class="input-area">
+            <input type="number" id="guessInput" placeholder="Enter number" />
+            <button id="guessBtn">Guess</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
